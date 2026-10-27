@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.zapptele" name="Zapp Télé" version="1.3.0" provider-name="Zapp Télé (extension personnelle)">
+ <requires><import addon="xbmc.python" version="3.0.0"/></requires>
+ <extension point="xbmc.python.pluginsource" library="main.py"><provides>video</provides></extension>
+ <extension point="xbmc.service" library="service.py"/>
+ <extension point="xbmc.addon.metadata"><summary lang="fr_FR">Zapp Télé : chaînes, guide et groupes au choix</summary><summary lang="en_GB">Zapp TV, guide and group selection</summary><description lang="fr_FR">Configurez votre abonnement, choisissez les groupes visibles et synchronisez IPTV Simple Client.</description><platform>all</platform><license>MIT</license></extension>
+</addon>

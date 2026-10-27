@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+ <category label="Connexion">
+  <setting id="host" type="text" label="Hôte" default="http://zap444.com:8080"/>
+  <setting id="username" type="text" label="Nom d’utilisateur" default=""/>
+  <setting id="password" type="text" option="hidden" label="Mot de passe" default=""/>
+ </category>
+ <category label="Chaînes et guide">
+  <setting id="local_city" type="text" label="Ville de la présélection Locale" default="" visible="false"/>
+  <setting type="action" label="Présélection Locale — choisir la ville" action="RunPlugin(plugin://plugin.video.zapptele/?action=local)" option="close"/>
+  <setting type="action" label="Afficher ou masquer les groupes…" action="RunPlugin(plugin://plugin.video.zapptele/?action=groups)" option="close"/>
+  <setting type="action" label="Forcer la synchronisation en arrière-plan" action="RunPlugin(plugin://plugin.video.zapptele/?action=sync)" option="close"/>
+  <setting type="action" label="Configurer la section Télévision de Kodi" action="RunPlugin(plugin://plugin.video.zapptele/?action=pvr)" option="close"/>
+  <setting id="automatic" type="bool" label="Actualisation automatique (chaînes 6 h, guide 24 h)" default="true"/>
+ </category>
+</settings>

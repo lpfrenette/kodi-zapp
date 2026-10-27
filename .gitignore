@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+dist/
+.env
+.env.*
+*.m3u
+*.m3u8
+userdata/
+addon_data/
+settings.xml
+!plugin.video.zapptele/resources/settings.xml
